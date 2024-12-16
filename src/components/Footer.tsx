@@ -1,5 +1,11 @@
 import Link from 'next/link'; // Importing Link component from Next.js for navigation
-import { FaTwitter, FaFacebook, FaYoutube, FaInstagram } from 'react-icons/fa'; // Importing social media icons from React Icons
+// import { FaTwitter, FaFacebook, FaYoutube, FaInstagram } from 'react-icons/fa'; // Importing social media icons from React Icons
+
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+
 import { IoLocationOutline } from "react-icons/io5"; // Importing location icon from React Icons
 
 const Footer = () =>{
