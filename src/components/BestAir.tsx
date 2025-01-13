@@ -3,6 +3,8 @@
 import * as React from "react"
 import Image from "next/image"
 import { ChevronLeft, ChevronRight } from 'lucide-react'
+import AddToCart from "./AddToCard"
+
 
 interface Product {
   id: number
@@ -33,6 +35,7 @@ const products: Product[] = [
     category: "Men's Shoes",
     price: 18995,
     image: "/product2.png",
+    
   },
   {
     id: 4,

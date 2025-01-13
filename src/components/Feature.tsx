@@ -1,5 +1,7 @@
 import React from "react"
 import Image from "next/image"
+import Link from "next/link";
+
 
 const Feature = () => {
   return (
@@ -23,7 +25,14 @@ const Feature = () => {
             Cause everyone should know the feeling of running in that perfect pair.
           </p>
           <button className="rounded-full p-2 px-6 bg-black text-white hover:bg-black/90">
-            Find Your Shoe
+          <Link
+            href="/allproduct"
+            className="text-sm font-medium transition-colors hover:text-gray-600"
+          >
+            Find Your products
+          
+          </Link>
+            
           </button>
         </div>
       </div>

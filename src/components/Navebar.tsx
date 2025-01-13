@@ -5,7 +5,7 @@ import { Search, Heart, ShoppingBag } from "lucide-react";
 export function Navebar() {
   return (
     <header className="w-full border-b bg-white">
-      <div className="container mx-auto flex h-16 items-center justify-between px-auto lg:px-auto">
+      <div className="container max-auto flex h-16 items-center justify-between px-auto lg:px-auto">
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
@@ -73,7 +73,9 @@ export function Navebar() {
             <Heart className="h-6 w-6 hover:text-red-600" />
           </button>
           <button>
+            <Link href="/addToCard">
             <ShoppingBag className="h-6 w-6  hover:text-indigo-600" />
+            </Link>
           </button>
         </div>
       </div>

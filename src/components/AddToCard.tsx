@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "next/link";
 import Image from "next/image"
 
 
@@ -35,7 +36,9 @@ const AddToCart = () => {
             </div>
             
             <button className="w-full md:w-auto px-8 bg-black hover:bg-gray-600 rounded-3xl text-white p-2">
+              <Link href="/delivery">
               Add To Cart
+              </Link>
             </button>
           </div>
         </div>
